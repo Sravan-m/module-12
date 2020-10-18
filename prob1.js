@@ -1,4 +1,4 @@
-function count(str,letter)
+function countBs(str,letter)
 {
 	var letter_count = 0;
 	for(let i=0; i<str.length; i++)
@@ -11,4 +11,4 @@ function count(str,letter)
 	return letter_count
 }
 
-console.log(count('BoBBLinG','B'))
+console.log(countBs('BoBBLinG','B'))
