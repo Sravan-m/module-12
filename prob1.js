@@ -26,5 +26,5 @@ function countChar(str,letter)
 	return letter_count
 }
 
-console.log('BoBBLinG')
+console.log(countBs('BoBBLinG'))
 console.log(countChar('opportunnity','o'))
